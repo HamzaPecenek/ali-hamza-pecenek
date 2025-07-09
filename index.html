@@ -2,108 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ali Hamza Peçenek</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ali Hamza Peçenek — Home</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
 </head>
-
 <body>
   <header>
-    <div class="container">
-      <h1>Ali Hamza Peçenek</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
-      </nav>
-    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="intro">
-      <div class="container">
-        <p>
-          Computer Science student at Turkish-German University. Interested in quantum computing, AI, ML, and web development.
-        </p>
-        <a href="assets/cv.pdf" class="btn" download>Download CV</a>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>
-          I’m a Computer Science sophomore at Turkish-German University with a deep interest in quantum computing, machine learning, AI, data engineering, and web development. I'm especially motivated by projects that create meaningful societal impact beyond profit.
-        </p>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <h2>Education</h2>
-        <p><strong>Turkish-German University</strong> – BSc in Computer Science (Expected 2027)<br>GPA: 3.07</p>
-        <p><strong>Tofaş Science High School</strong> – Graduated 2022<br>GPA: 3.9</p>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-        <ul>
-          <li><strong>Languages:</strong> Python, Java, JavaScript, C, SQL</li>
-          <li><strong>Web:</strong> HTML, CSS, React, Django</li>
-          <li><strong>Tools:</strong> Git, TensorFlow, scikit-learn, pandas, NumPy</li>
-          <li><strong>Concepts:</strong> ML, AI, Quantum Computing (learning)</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container">
-        <h2>Experience</h2>
-        <p><strong>STEM Mentor – T3 Vakfı (2022–2023)</strong><br>
-        Mentored middle school students in robotics, Arduino, and programming. Helped build hands-on projects and taught weekly workshops.</p>
-        <p><strong>Board Member – TAU Informatix Club (2024–Present)</strong><br>
-        Managing tech club activities and supporting fellow students in technology events.</p>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
-        <p><strong>Text-based Game with ML (2025)</strong><br>
-        Built a game using Python and machine learning to adapt to user behavior. Focused on AI logic and user experience.</p>
-
-        <p><strong>Personal Website (You’re here!)</strong><br>
-        Built using HTML, CSS, and GitHub Pages as a minimalist academic site.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:hamza.petschenek@gmail.com">hamza.petschenek@gmail.com</a></p>
-        <p>Phone: +90 551 177 6168</p>
-        <p>Location: Istanbul, Turkey</p>
-        <p>
-          <a href="https://github.com/HamzaPecenek" target="_blank">GitHub</a> |
-          <a href="https://linkedin.com/in/ali-hamza-pecenek-04318a369" target="_blank">LinkedIn</a>
-        </p>
-      </div>
+    <section id="home-intro">
+      <h1>Ali Hamza Peçenek</h1>
+      <img src="profile-photo.jpg" alt="Ali Hamza Peçenek" class="profile-photo" />
+      <p class="short-bio">
+        Computer Science sophomore at Turkish-German University interested in quantum computing, AI, machine learning, and web development.
+      </p>
+      <a class="button" href="Ali-Hamza-Pecenek-CV.pdf" target="_blank" download>Download CV (PDF)</a>
     </section>
   </main>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Ali Hamza Peçenek</p>
-    </div>
+    <p>© 2025 Ali Hamza Peçenek</p>
   </footer>
 </body>
 </html>
