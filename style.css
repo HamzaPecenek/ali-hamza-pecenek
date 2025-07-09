@@ -69,21 +69,6 @@ body.dark .nav-list li a {
   color: var(--link-hover);
 }
 
-/* Toggle Buttons */
-.toggle-buttons {
-  display: flex;
-  gap: 10px;
-}
-
-.toggle-button {
-  background: none;
-  border: 1px solid #aaa;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 4px;
-  font-weight: bold;
-}
-
 /* Headings */
 h1 {
   font-size: 2.5rem;
